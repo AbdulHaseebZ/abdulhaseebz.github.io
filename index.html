@@ -637,7 +637,7 @@
   <div class="section-title">Who I<br><span>Am</span></div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I'm a <strong>Mechatronics Engineering student at NUST</strong> (graduating May 2026), specializing in embedded systems, IoT. I bridge the gap between low-level firmware and full-stack IoT ecosystems.</p>
+      <p>I'm a <strong>Mechatronics Engineering student at NUST</strong> (graduating Sep 2026), specializing in embedded systems, IoT. I bridge the gap between low-level firmware and full-stack IoT ecosystems.</p>
       <p>My work spans <strong>reverse engineering proprietary protocols</strong>, building custom smart controllers, deploying AI-powered energy management systems, and designing autonomous robots — all validated in real hardware environments, not just simulation.</p>
       <p>I believe in building things that actually work. My projects go from PCB to deployment, from register maps to dashboards. I'm drawn to problems where the physical and digital world intersect.</p>
     </div>
@@ -698,6 +698,63 @@
   <div class="section-title">Things I've<br><span>Built</span></div>
   <div class="projects-grid">
 
+    
+    <!-- Project 2: NERC Robot -->
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-video-wrap" style="position:relative;">
+        <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
+          
+          <span class="project-badge badge-gold" style="position:relative; top:auto; right:auto; display:inline-block; margin-bottom:4px;">🏆 1st Prize — NERC 2025</span>
+          
+          <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/nerc_bot.jpeg"
+              alt="Autonomous Fruit Picker Robot" 
+              style="width:100%; height:160px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
+
+          <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center;">Autonomous Fruit Picker Robot</div>
+          
+          <a href="https://youtube.com/shorts/DnnrYoFPzEM?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
+            ▶ Watch Demo on YouTube
+          </a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Autonomous Fruit Picker Robot</div>
+        <div class="project-desc">Award-winning autonomous robot that interprets 3×3 grid layouts to identify, pluck, and categorize fruits by color, delivering them to designated storage zones — all without human intervention during runtime.</div>
+        <div class="project-tags">
+          <span class="tag">Arduino Mega</span>
+          <span class="tag">DC Motors + Encoders</span>
+          <span class="tag">IR Sensors</span>
+          <span class="tag">Color Sensor</span>
+          <span class="tag">Sonar</span>
+          <span class="tag">Servo</span>
+        </div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-video-wrap" style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
+        <span class="project-badge badge-purple" style="position:relative; top:auto; right:auto; display:inline-block; margin-bottom:4px;">Reverse Engineering</span>
+        <div style="text-align:center; width: 100%;">
+          <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/hvac%20(2).jpeg" alt="HVAC Smart Controller Interface" style="width:100%; height:180px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
+          <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); margin-top:12px; text-transform: uppercase; letter-spacing: 0.1em;">
+            Hardware Interface • ESP32 Backend
+          </div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">HVAC Smart Controller (Daikin Retrofit)</div>
+        <div class="project-desc">
+          Successfully <strong>reverse-engineered Daikin's proprietary wired protocol</strong> to intercept and decode communication signals. Developed a custom ESP32-based Wi-Fi bridge that enables remote control of mode, fan speed, and setpoint temperatures via a web interface or Home Assistant.
+        </div>
+        <div class="project-tags">
+          <span class="tag">ESP32</span>
+          <span class="tag">Protocol Analysis</span>
+          <span class="tag">Logic Analyzer</span>
+          <span class="tag">C++</span>
+          <span class="tag">Wi-Fi / HTTP</span>
+        </div>
+        <a href="mailto:abdulhaseeb6204@gmail.com" class="project-link">Inquire for Tech Stack →</a>
+      </div>
+    </div>
     <!-- Project 1: Energy Management -->
     <div class="project-card reveal">
       <div class="project-video-wrap" style="background:#0d0d18; padding: 20px; display:flex; align-items:center; justify-content:center; min-height:200px;">
@@ -727,38 +784,17 @@
       </div>
     </div>
 
-    <!-- Project 2: NERC Robot -->
-    <div class="project-card reveal reveal-delay-1">
-      <div class="project-video-wrap" style="position:relative;">
-        <span class="project-badge badge-gold">🏆 1st Prize — NERC 2025</span>
-        <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:200px; gap:12px;">
-          <div style="font-size:3rem;">🤖</div>
-          <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center;">Autonomous Fruit Picker Robot</div>
-          <a href="https://youtube.com/shorts/DnnrYoFPzEM?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
-            ▶ Watch Demo on YouTube
-          </a>
-        </div>
-      </div>
-      <div class="project-body">
-        <div class="project-title">Autonomous Fruit Picker Robot</div>
-        <div class="project-desc">Award-winning autonomous robot that interprets 3×3 grid layouts to identify, pluck, and categorize fruits by color, delivering them to designated storage zones — all without human intervention during runtime.</div>
-        <div class="project-tags">
-          <span class="tag">Arduino Mega</span>
-          <span class="tag">DC Motors + Encoders</span>
-          <span class="tag">IR Sensors</span>
-          <span class="tag">Color Sensor</span>
-          <span class="tag">Sonar</span>
-          <span class="tag">Servo</span>
-        </div>
-      </div>
-    </div>
-
     <!-- Project 3: Quadruped -->
     <div class="project-card reveal reveal-delay-2">
-      <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:200px; gap:12px;">
+      <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
         <span class="project-badge badge-purple" style="position:relative; top:auto; right:auto; display:inline-block; margin-bottom:4px;">Robotics</span>
-        <div style="font-size:3rem;">🦾</div>
+        
+        <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/leg_design.jpeg" 
+             alt="3-DoF Quadruped Leg Design" 
+             style="width:100%; height:160px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
+
         <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center;">Quadruped Leg — 3-DoF</div>
+        
         <a href="https://youtube.com/shorts/MhyA4XsP-8c?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
           ▶ Watch Demo on YouTube
         </a>
@@ -768,19 +804,22 @@
         <div class="project-desc">Full design-to-control pipeline for a 3 degree-of-freedom quadruped leg. Covers mechanical design & fabrication, forward and inverse kinematics derivation, simulation, and embedded control implementation.</div>
         <div class="project-tags">
           <span class="tag">Kinematics</span>
-          <span class="tag">CAD/Fabrication</span>
-          <span class="tag">Embedded C</span>
+          <span class="tag">Fabrication</span>
+          <span class="tag">C++</span>
           <span class="tag">Servo Control</span>
-          <span class="tag">Matlab</span>
         </div>
       </div>
     </div>
 
     <!-- Project 4: Static Code Analyzer -->
     <div class="project-card reveal">
-      <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:200px; gap:12px;">
-        <div style="font-size:3rem;">🔍</div>
-        <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted);">Static Code Analyzer Tool</div>
+      <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
+        <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/static_code_analyzer_demo.jpg" 
+             alt="Linux Kernel Dependency Graph" 
+             style="width:100%; height:180px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
+        <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); text-transform: uppercase; letter-spacing: 0.1em;">
+          Example: Linux Kernel Dependency Hierarchy
+        </div>
       </div>
       <div class="project-body">
         <div class="project-title">Static Code Analyzer — NCRA</div>
@@ -789,12 +828,10 @@
           <span class="tag">Python</span>
           <span class="tag">Joern</span>
           <span class="tag">Cytoscape</span>
-          <span class="tag">Graph Analysis</span>
           <span class="tag">Linux Kernel</span>
         </div>
       </div>
     </div>
-
   </div>
 </section>
 
