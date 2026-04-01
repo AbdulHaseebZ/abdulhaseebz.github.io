@@ -792,25 +792,35 @@
         <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/leg_design.jpeg" 
              alt="3-DoF Quadruped Leg Design" 
              style="width:100%; height:160px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
-
+    
         <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center;">Quadruped Leg — 3-DoF</div>
         
-        <a href="https://youtube.com/shorts/MhyA4XsP-8c?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
-          ▶ Watch Demo on YouTube
-        </a>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+          <a href="https://youtube.com/shorts/MhyA4XsP-8c?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
+            ▶ Watch Demo
+          </a>
+          <a href="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/itr_pr.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,0.2); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.08)'" onmouseout="this.style.background='transparent'">
+            📄 View Report
+          </a>
+        </div>
       </div>
+    
       <div class="project-body">
         <div class="project-title">Quadruped Leg Design — 3 DoF</div>
-        <div class="project-desc">Full design-to-control pipeline for a 3 degree-of-freedom quadruped leg. Covers mechanical design & fabrication, forward and inverse kinematics derivation, simulation, and embedded control implementation.</div>
+        <div class="project-desc">
+          <strong>Mechanical Design:</strong> A serial kinematic chain with 3-DOF (Yaw, Hip Pitch, Knee Pitch) using MG996R high-torque servos and custom 3D-printed/acrylic linkages (a=85mm, b=78.65mm)[cite: 45, 49]. <br><br>
+          <strong>Kinematics:</strong> Full derivation of Forward Kinematics via DH parameters and Inverse Kinematics using the Law of Cosines to translate Cartesian (X,Y,Z) coordinates into joint angles (θ₁, θ₂, θ₃)[cite: 70, 122]. <br><br>
+          <strong>Control:</strong> Embedded C++ implementation on an ESP32 using the ESP32Servo library, featuring a real-time command interface for precise end-effector positioning[cite: 141, 143].
+        </div>
         <div class="project-tags">
           <span class="tag">Kinematics</span>
-          <span class="tag">Fabrication</span>
+          <span class="tag">SolidWorks</span>
+          <span class="tag">ESP32</span>
           <span class="tag">C++</span>
-          <span class="tag">Servo Control</span>
+          <span class="tag">DH Parameters</span>
         </div>
       </div>
     </div>
-
     <!-- Project 4: Static Code Analyzer -->
     <div class="project-card reveal">
       <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
