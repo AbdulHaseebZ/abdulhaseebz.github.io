@@ -592,7 +592,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">AHZ_Portfolio</div>
+  <div class="nav-logo">Portfolio</div>
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
@@ -611,14 +611,14 @@
   <div class="hero-name">Abdul<br><span>Haseeb</span><br>Zahid</div>
   <p class="hero-subtitle">Developing robust software for embedded systems and IoT, enabling precise hardware control through efficient code.</p>
   <div class="hero-chips">
+    <span class="chip">C / C++</span>
+    <span class="chip">Python</span>
+    <span class="chip">RTOS</span>
     <span class="chip">ESP32</span>
     <span class="chip">STM32</span>
     <span class="chip">AVR</span>
     <span class="chip">Communication Protocols (I2C, SPI, UART, CAN, Modbus RTU, MQTT, http)</span>
     <span class="chip">Home Assistant</span>
-    <span class="chip">C / C++</span>
-    <span class="chip">Python</span>
-    <span class="chip">RTOS</span>
     <span class="chip">NUST '26</span>
   </div>
   <div class="hero-cta">
@@ -661,12 +661,11 @@
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
 
 <!-- EXPERIENCE -->
 <section id="experience" class="section-alt">
-  <div class="section-label">// 02 — Experience</div>
+  <div class="section-label">02 — Experience</div>
   <div class="section-title">Where I've<br><span>Worked</span></div>
   <div class="timeline">
     <div class="timeline-item reveal">
@@ -675,17 +674,17 @@
       <div class="timeline-company">MRS Technologies, Islamabad</div>
       <div class="timeline-desc">Reverse engineered Daikin's proprietary HVAC wired controller to decode its communication protocol. Designed and built a custom Wi-Fi enabled smart controller using ESP32, enabling remote monitoring and control through Home Assistant — without replacing existing hardware.</div>
     </div>
-    <div class="timeline-item reveal reveal-delay-1">
-      <div class="timeline-date">Jun 2025 — Jul 2025</div>
-      <div class="timeline-role">Mechatronics Engineering Intern</div>
-      <div class="timeline-company">Heavy Mechanical Complex (HMC), Taxila</div>
-      <div class="timeline-desc">Completed a 6-week rotational internship across Production Planning & Control, Mechanical Works, Foundry & Forge Works, Quality Assurance, and Technology departments. Recognized for strong work ethic, punctuality, and exceeding performance expectations.</div>
-    </div>
     <div class="timeline-item reveal reveal-delay-2">
       <div class="timeline-date">Jul 2024 — Aug 2024</div>
       <div class="timeline-role">Python Intern</div>
       <div class="timeline-company">National Center of Robotics and Automation (NCRA)</div>
       <div class="timeline-desc">Built a Static Code Analyzer tool using Joern for deep codebase analysis. Leveraged Python to extract and process structural information from large codebases including the Linux kernel. Used Cytoscape graphing library to visualize complex call graphs, hierarchies, and dependency structures.</div>
+    </div>
+    <div class="timeline-item reveal reveal-delay-1">
+      <div class="timeline-date">Jun 2025 — Jul 2025</div>
+      <div class="timeline-role">Mechatronics Engineering Intern</div>
+      <div class="timeline-company">Heavy Mechanical Complex (HMC), Taxila</div>
+      <div class="timeline-desc">Completed a 6-week rotational internship across Production Planning & Control, Mechanical Works, Foundry & Forge Works, Quality Assurance, and Technology departments. Recognized for strong work ethic, punctuality, and exceeding performance expectations.</div>
     </div>
   </div>
 </section>
@@ -694,7 +693,7 @@
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="section-label">// 03 — Projects</div>
+  <div class="section-label">03 — Projects</div>
   <div class="section-title">Things I've<br><span>Built</span></div>
   <div class="projects-grid">
 
@@ -712,11 +711,19 @@
 
           <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted); text-align:center;">Autonomous Fruit Picker Robot</div>
           
-          <a href="https://youtube.com/shorts/DnnrYoFPzEM?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
-            ▶ Watch Demo on YouTube
-          </a>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+            <a href="https://youtube.com/shorts/DnnrYoFPzEM?feature=share" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
+              ▶ Watch Demo
+            </a>
+
+            <a href="https://github.com/AbdulHaseebZ/Fruit-Picker-Categorizer-Robot" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,0.2); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.08)'; this.style.borderColor='rgba(255,255,255,0.5)';" onmouseout="this.style.background='transparent'; this.style.borderColor='rgba(255,255,255,0.2)';">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              View Code
+            </a>
+          </div>
         </div>
       </div>
+
       <div class="project-body">
         <div class="project-title">Autonomous Fruit Picker Robot</div>
         <div class="project-desc">Award-winning autonomous robot that interprets 3×3 grid layouts to identify, pluck, and categorize fruits by color, delivering them to designated storage zones — all without human intervention during runtime.</div>
@@ -756,21 +763,32 @@
       </div>
     </div>
     <!-- Project 1: Energy Management -->
-    <div class="project-card reveal">
+<div class="project-card reveal">
       <div class="project-video-wrap" style="background:#0d0d18; padding: 20px; display:flex; align-items:center; justify-content:center; min-height:200px;">
         <div style="text-align:center;">
           <div style="font-size:3rem; margin-bottom:12px;">⚡</div>
           <div style="font-family:var(--mono); font-size:0.75rem; color:var(--muted);">Smart Energy Management System</div>
-          <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); margin-top:8px;">Hardware Deployed • Real Environment</div>
-          <a href="https://youtu.be/UdPZWfoiEVc" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
-            ▶ Watch Demo on YouTube
-          </a>
+          <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); margin-top:8px; margin-bottom:16px;">Hardware Deployed • Real Environment</div>
+          
+          <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+            <a href="https://youtu.be/UdPZWfoiEVc" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-decoration:none; border:1px solid rgba(0,229,255,0.3); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(0,229,255,0.08)'" onmouseout="this.style.background='transparent'">
+              ▶ Watch Demo
+            </a>
+            
+            <a href="https://github.com/AbdulHaseebZ/FYP" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,0.2); padding:8px 16px; border-radius:2px; transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.08)';" onmouseout="this.style.background='transparent';">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              Repository
+            </a>
+          </div>
         </div>
       </div>
+
       <span class="project-badge badge-blue">Embedded Systems & IoT</span>
+      
       <div class="project-body">
         <div class="project-title">Smart Energy Management &amp; Load Optimization</div>
         <div class="project-desc">A full-stack commercial microgrid management system that retrofits legacy solar inverters via Modbus RTU, controls HVAC and split ACs, and integrates a locally hosted RAG-based AI for real-time load recommendations — all visualized on a unified Home Assistant dashboard.</div>
+        
         <div class="project-tags">
           <span class="tag">ESP32</span>
           <span class="tag">Modbus RTU</span>
@@ -780,7 +798,8 @@
           <span class="tag">MQTT</span>
           <span class="tag">Python</span>
         </div>
-        <a href="#publication" class="project-link">Read paper →</a>
+        
+        <a href="#publication" class="project-link" style="display:inline-block; margin-top:12px;">Read paper →</a>
       </div>
     </div>
 
@@ -824,13 +843,21 @@
     <!-- Project 4: Static Code Analyzer -->
     <div class="project-card reveal">
       <div style="background:#0d0d18; padding: 20px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:220px; gap:12px;">
+        
         <img src="https://raw.githubusercontent.com/AbdulHaseebZ/abdulhaseebz.github.io/main/static_code_analyzer_demo.jpg" 
-             alt="Linux Kernel Dependency Graph" 
-             style="width:100%; height:180px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
-        <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); text-transform: uppercase; letter-spacing: 0.1em;">
+            alt="Linux Kernel Dependency Graph" 
+            style="width:100%; height:180px; object-fit:contain; border-radius:4px; border: 1px solid var(--border);">
+        
+        <div style="font-family:var(--mono); font-size:0.65rem; color:var(--accent); text-transform: uppercase; letter-spacing: 0.1em; background: rgba(0,229,255,0.05); padding: 4px 8px; border-radius: 2px;">
           Example: Linux Kernel Dependency Hierarchy
         </div>
+
+        <a href="https://github.com/AbdulHaseebZ/static_code_analysis_tool" target="_blank" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.7rem; color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,0.2); padding:8px 20px; border-radius:2px; transition:all 0.2s; margin-top: 4px;" onmouseover="this.style.background='rgba(255,255,255,0.08)'; this.style.borderColor='rgba(255,255,255,0.5)';" onmouseout="this.style.background='transparent'; this.style.borderColor='rgba(255,255,255,0.2)';">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+          View Repository
+        </a>
       </div>
+
       <div class="project-body">
         <div class="project-title">Static Code Analyzer — NCRA</div>
         <div class="project-desc">A Python-based code analysis tool built using Joern that parses and visualizes complex code structures for large codebases like the Linux kernel. Used Cytoscape to generate interactive call graphs and dependency hierarchies.</div>
@@ -839,6 +866,7 @@
           <span class="tag">Joern</span>
           <span class="tag">Cytoscape</span>
           <span class="tag">Linux Kernel</span>
+          <span class="tag">Graph Analysis</span>
         </div>
       </div>
     </div>
@@ -849,7 +877,7 @@
 
 <!-- SKILLS -->
 <section id="skills" class="section-alt">
-  <div class="section-label">// 04 — Skills</div>
+  <div class="section-label">04 — Skills</div>
   <div class="section-title">What I<br><span>Know</span></div>
   <div class="skills-outer">
     <div class="skill-group reveal">
@@ -921,7 +949,7 @@
 
 <!-- PUBLICATION -->
 <section id="publication">
-  <div class="section-label">// 05 — Research</div>
+  <div class="section-label">05 — Research</div>
   <div class="section-title">Published<br><span>Work</span></div>
   <div class="pub-card reveal">
     <div>
@@ -955,7 +983,7 @@
 
 <!-- LEADERSHIP -->
 <section class="section-alt">
-  <div class="section-label">// 06 — Leadership</div>
+  <div class="section-label">06 — Leadership</div>
   <div class="section-title">Giving<br><span>Back</span></div>
   <div class="timeline">
     <div class="timeline-item reveal">
@@ -983,7 +1011,7 @@
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="section-label">// 07 — Contact</div>
+  <div class="section-label">07 — Contact</div>
   <div class="section-title">Let's<br><span>Connect</span></div>
   <div class="contact-grid">
     <div>
